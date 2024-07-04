@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             margin: 20px;
@@ -42,6 +43,16 @@
             justify-content: center;
             color: white;
             font-weight: bold;
+        }
+        .social-icons {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .social-icons a {
+            color: #007bff;
+            font-size: 24px;
+            margin-left: 10px;
         }
         .skill-javascript { width: 90%; background-color: #28a745; }
         .skill-python { width: 80%; background-color: #17a2b8; }
@@ -229,7 +240,7 @@
             </div>
         </section>
 
-        <section id="contact" class="container mb-5">
+        <section id="contact" class="container mb-5 position-relative">
             <h2 class="text-center mb-4">Contact Me</h2>
             <form>
                 <div class="mb-3">
@@ -243,6 +254,14 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/thomassjovy/" target="_blank" title="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/sjovy/" target="_blank" title="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
         </section>
     </main>
 
